@@ -1,0 +1,41 @@
+
+.container {
+    width: 430px;
+    height: 80vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.container>h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container>input {
+    width: 70%;
+    height: 100px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cyan;
+    height: 100vh;
+}
+.bio > input{
+    height: 100px;
+    width: 210px;
+}
+button{
+    background-color: blue;
+    width: 200px;
+    height: 80px;
+    border: none;
+    color: white;
+}
